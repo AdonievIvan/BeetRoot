@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.header
+,main{
+    font-size: 0;
+    width: 100%;
+    max-width: 960px;
+    height: 420px;
+    margin: 0px auto;
+}
+
+.header{
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.sub_header_text{
+    margin: 0 auto;
+    color: #999;
+    margin-bottom: 35px;
+    margin-left: 425px;
+    margin-top: 67px;
+
+    text-transform: uppercase;
+
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+
+.header_text{
+    font-size: 48px;
+    color: #0cc;
+    margin-left: 215px;
+    margin-bottom: 45px;
+
+}
+
+.sup_header_text{
+    padding-bottom: 110px;
+    text-align: center;
+    margin-left: 230px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #999;
+    width: 510px;
+    height: 50px;
+}
+
+
+
+
+.content{
+    font-size: 0;
+    height: 420px;
+    width: 960px;
+
+}
+
+
+
+.column{
+    cursor: pointer;
+    padding-top: 56px;
+
+    text-align: center;
+    font-size: 16px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #f7f7f7;
+    width: 235px;
+    height: 100%;
+}
+
+
+.title{
+
+
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 56px;
+    margin-bottom: 36px;
+
+}
+
+
+.sup_title{
+
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: #777;
+    width: 168px;
+    height: 100px;
+}
+
+.title.div{
+    margin-top: 45px;
+}
+
+
+.img{
+    margin: 0 auto;
+    height: 70px;
+    width: 80px;
+}
+
+.column:hover{
+    transition: color .1s linear;
+    background-color: #0ec8cb;
+    color: #fff;
+
+}
+
+.column:hover > .sup_title{
+    transition: .1s linear;
+    background-color: #0ec8cb;
+    color: #fff;
+
+}
+
+ /* .column:hover img{
+    opacity:0;
+} */
+
+.column:hover img{
+    opacity: 0;
+}
+
+.column:hover .img.anchor{
+
+    background: url("Anchor_hover.png") no-repeat center;
+
+}
+
+.column:hover .img.diamond{
+    background: url("Diamond_hover.png") no-repeat center;
+
+}
+
+.column:hover .img.eyeglasses{
+
+    background: url("Eyeglasses_hover.png") no-repeat center;
+
+}
+
+.column:hover .img.monitor{
+
+    background: url("Monitor_hover.png") no-repeat center;
+
+}
+
+.img.eyeglasses img{
+    margin-top: 10px;
+}
+.img.monitor img{
+    margin-top: 10px;
+}

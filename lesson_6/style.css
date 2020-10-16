@@ -1,0 +1,120 @@
+body{
+    background: #cc3c;
+}
+
+
+.div1 {
+    width: 300px;
+    height: 300px;
+
+    background-color: #333;
+    margin: 100px;
+    padding: 50px;
+    border:50px solid #ccc;
+    color:#fff;
+    overflow: hidden;
+
+}
+
+.div1 div {
+    overflow: auto;
+    height: 100%;
+}
+
+
+span {
+    background-color: #ccc;
+    font-size: 32px;
+}
+
+article{
+    background-color: rgb(67, 152, 26);
+    padding: 1px;
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    background: #999;
+    margin: 50px;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.footer{
+    font-size: 0;
+}
+
+.weather{
+    width: 60%;
+    font-size: 0;
+}
+.weather div{
+    font-size: 16px;
+    height: 100px;
+    width: 25%;
+    background: #333;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+
+}
+
+.weather .double{
+    width: 50%;
+}
+
+[class^=m]{
+    width: 100px;
+    height: 100px;
+    background: #333;
+    display: inline-block;
+
+}
+
+.m1{
+    margin: 50px;
+}
+
+.m2{
+    margin: 50px 30px;
+}
+
+.m3{
+    margin: 50px 30px 40px;
+}
+
+.m4{
+    margin: 50px 40px 39px 20px;
+}
+
+.tac{
+    text-align: center;
+}
+
+.tac div{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+form {background-color: #333;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+form:before{
+    content:" ";
+    padding-bottom: 100%;
+    display: block;
+}
+
+
+.border{
+border-top-left-radius: 11px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 100px;
+border-bottom-left-radius: 10px;
+}
