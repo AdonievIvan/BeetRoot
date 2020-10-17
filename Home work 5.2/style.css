@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ul{
+    list-style: none;
+}
+
+body{
+
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    background-color: #2B81AC;
+
+}
+
+main{
+    margin: 2%;
+    width: 94%;
+    height: 900px;
+    background-color: #39C;
+}
+
+ul{
+
+
+    outline: 3px solid #fff;
+    font-size: 0;
+}
+p{
+    padding-top: 15px;
+}
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.forecast_table{
+
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+li{
+    border:3px solid white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    width: 25%;
+    height: 120px;
+    display: inline-block;
+}
+.lisbon,
+.san{
+    width: 50%;
+}
+
+.Sydney{
+    width: 100%;
+}
+
+
+.lisbon{
+    background: rgb(51, 144, 42);
+}
+
+.paris{
+    background: rgb(124, 40, 167);
+}
+.belgrad{
+    background:rgb(179, 133, 35);
+}
+
+.moscow{
+    background:rgb(70, 215, 174);
+}
+.Aviv{
+    background:rgb(187, 53, 224)
+}
+.cair{
+    background:rgb(249, 172, 70)
+}
+.York{
+    background:rgb(35, 148, 158)
+}
+
+.Delhi{
+    background: rgb(188, 117, 235);
+}
+.san{
+    background: #952f2f;
+}
+.tokyo{
+    background: #2ca17c;
+}
+.Sydney{
+    background: rgb(94, 171, 81);
+}
+
+
+
+ul:hover li{
+    opacity:.5;
+}
+
+ul li:hover{
+    opacity:1;
+}
