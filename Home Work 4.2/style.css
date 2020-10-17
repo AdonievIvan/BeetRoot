@@ -95,12 +95,12 @@ input[type="checkbox"]:checked + span{
 
 
 
-.element:hover{
-    background-color: #625E77;
-    border-top:5px solid transparent;
-    border-bottom:5px solid transparent;
-
-    padding-top: -5px;
+.element{
+    
+    display: block;
+    color: #ffffff;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 
 
 
@@ -144,4 +144,11 @@ input[type="checkbox"]:checked + span{
 
 .btn:hover{
     background-color: #625E77;
+}
+
+
+
+.element:hover {
+    border-color: #fff;
+    background: #5F5A78;
 }
