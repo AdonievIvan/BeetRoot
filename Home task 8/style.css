@@ -160,6 +160,9 @@ form{
     color: #23ae92;
 }
 .footer a{
+    opacity:.5;
+    text-decoration: underline;
+    
     margin-right: 14px;
     margin-left: 14px;
     font-size: 13px;
